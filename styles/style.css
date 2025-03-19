@@ -91,6 +91,7 @@
     text-transform: uppercase;
     position: relative;
     color: white;
+    letter-spacing: 30px;
 }
 
 .aligned-text_center{
@@ -99,6 +100,7 @@
     position: relative;
     color: white;
     text-align: center;
+    letter-spacing: 30px;
 }
 
 .aligned-text_right{
@@ -107,7 +109,8 @@
     position: relative;
     color: white;
     text-align: end;
-    
+    letter-spacing: 30px;
+
 }
 
 .description{
