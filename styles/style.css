@@ -1,4 +1,4 @@
-.header{
+.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -8,7 +8,7 @@
 
 }
 
-.header_menu{
+.header_menu {
     line-height: 22px;
     justify-self: start;
     align-items: center;
@@ -29,31 +29,31 @@
     display: grid;
 }
 
-.menu_item_circle{
+.menu_item_circle {
     list-style-type: circle;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
 
-.img{
+.logo {
     width: 148px;
     height: 105px;
     display: flex;
     justify-self: center;
 }
 
-.header_adress{
+.header_adress {
     padding-right: 50px;
     padding-left: 184px;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
 
-.line{
+.line {
     text-decoration: none;
 }
 
-.cover{
+.cover {
     position: relative;
     margin-bottom: 180px;
     background-image: url("../images/cover.jpg");
@@ -86,24 +86,29 @@
 }
 
 .aligned-text {
+    display: block;
     font-weight: 700;
     font-size: 100px;
     text-transform: uppercase;
     position: relative;
     color: white;
     letter-spacing: 30px;
+    text-align: start;
 }
 
-.aligned-text_center{
+.aligned-text_center {
+    display: block;
     font-weight: 700;
     font-size: 100px;
     position: relative;
     color: white;
     text-align: center;
     letter-spacing: 30px;
+
 }
 
-.aligned-text_right{
+.aligned-text_right {
+    display: block;
     font-weight: 700;
     font-size: 100px;
     position: relative;
@@ -113,7 +118,7 @@
 
 }
 
-.description{
+.description {
     color: white;
     display: flex;
     justify-content: space-between;
@@ -127,7 +132,7 @@
     position: relative;
 }
 
-.button_bet{
+.button_bet {
     text-align: center;
     background-color: transparent;
     color: white;
@@ -138,13 +143,13 @@
     
 }
 
-.lots{
+.lots {
     width: 1052px;
     height: 723px;
     padding: 24px;
 }
 
-.lots_title{
+.lots_title {
     text-transform: uppercase;
     font-size: 40px;
     padding-left: 64px;
@@ -160,7 +165,7 @@
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     width: 334px;
     position: relative;
     color: white;
@@ -168,13 +173,13 @@
     
 }
 
-.card-link{
+.card-link {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.card_title{
+.card_title {
     color: white;
     position: relative;
     z-index: 2;
@@ -182,32 +187,32 @@
     margin: 48px 40px auto 40px;
 }
 
-.card_article{
+.card_article {
     color: white;
     position: relative;
     z-index: 2;
     margin: auto 40px 48px 40px;
     font-size: 20px;
 }
-.lots-card_movie{
+.lots-card_movie {
     background-image: url("../images/card-lot-01.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.lots-card_book{
+.lots-card_book {
     background-image: url("../images/card-lot-02.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.lots-card_picture{
+.lots-card_picture {
     background-image: url("../images/card-lot-03.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.button{
+.button {
     display: block;
     padding: 10px 20px;
     font-size: 1em;
@@ -217,17 +222,17 @@
     text-decoration: underline;
 }
 
-.about{
+.about {
     padding: 120px 24px 180px 24px;
 }
 
-.about_colomn{
+.about_colomn {
     display: grid;
     grid-template-columns: 360px 1fr;
     align-items: center;
 }
 
-.about_logo{
+.about_logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +244,7 @@
     
 }
 
-.about_logo-img{
+.about_logo-img {
     background-image: url("../images/logo-white.svg");
     width: 148px;
     height: 114px;
@@ -247,14 +252,14 @@
 
 }
 
-.about_title{
+.about_title {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.about_text{
+.about_text {
     font-size: 20px;
     font-weight: 400;
     grid-row: 2 / 3;
@@ -263,7 +268,7 @@
     gap: 30px;
 } 
 
-.footer{
+.footer {
     padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -272,7 +277,8 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.footer_adress{
+.footer_adress {
+    display: flex;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -282,17 +288,17 @@
     justify-self:center;
 }
 
-.menu__item_line{
+.menu__item_line {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
 
-.footer_networks-list{
+.footer_networks-list {
     display: flex;
     
 }
 
-.networks{
+.networks {
     padding: 10px;
     width: 65px;
     height: 65px;
