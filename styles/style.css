@@ -87,10 +87,11 @@
 
 .cover_title {
     width: 1000;
-    line-height: 135px;
+    line-height: 115px;
     font-weight: 700;
     font-size: 100px;
     text-transform: uppercase;
+    align-items: center;
     position: relative;
     color: white;
     letter-spacing: 30px;
@@ -120,7 +121,7 @@
     align-items: center;
     z-index: 0;
     word-spacing: 0.9em;
-    padding-top: 80px;
+    padding-top: 106px;
     position: relative;
     margin-bottom: 50px;
     font-family: Raleway;
@@ -276,7 +277,7 @@
 } 
 
 .footer {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     padding-left: 50px;
     padding-right: 50px;
     width: 1100px;
