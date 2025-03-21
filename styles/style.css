@@ -295,9 +295,11 @@
     list-style: none;
     text-align: center;
     justify-self:center;
-    margin-left: -50px;
 }
 
+.footer_link-list{
+    margin-left: -50px;
+}
 .footer_menu-link {
     text-decoration: underline;
     text-underline-offset: 4px;
