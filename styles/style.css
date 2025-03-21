@@ -70,7 +70,7 @@
     position: relative;
     margin-bottom: 180px;
     background-image: url("../images/cover.jpg");
-    padding: 165px 20px 106px 50px;
+    padding: 165px 20px auto 50px;
     z-index: -1;
     background-position: center;
     background-size: cover;
@@ -87,6 +87,7 @@
 .cover_title {
     display: grid;
     width: 1000;
+    padding-top: 165px;
     line-height: 115px;
     gap: 20px;
     font-weight: 700;
