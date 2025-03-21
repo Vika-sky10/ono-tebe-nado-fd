@@ -297,7 +297,7 @@
     justify-self:center;
 }
 
-.footer_link-list{
+.footer_link-list {
     margin-left: -50px;
 }
 .footer_menu-link {
@@ -315,8 +315,7 @@
     display: flex;
     flex-direction: row;
     gap: 48px;
-    /*padding-right: 10px;*/
-
+    margin-top: 5px;
 }
 
 .networks {
