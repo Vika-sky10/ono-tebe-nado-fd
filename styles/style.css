@@ -61,7 +61,6 @@
 
 .address_paragraph {
     text-decoration: none;
-    padding-top: 1px;
 }
 
 .header__address {
@@ -159,16 +158,17 @@
 
 .lots__cards-list {
     display: flex;
-  justify-content: space-between;
-  gap: 25px;
-  list-style: none;
-  width: 1052px;
-  align-items: stretch;
+    justify-content: space-between;
+    gap: 25px;
+    list-style: none;
+    width: 1052px;
+    align-items: stretch;
     flex-wrap: wrap;
 }
 
 .card {
     width: 334px;
+    min-height: 596px;
     position: relative;
     color: white;
     display: flex;
@@ -181,6 +181,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+    flex-grow: 1;
 }
 
 .card_title {
