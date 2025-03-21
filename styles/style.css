@@ -276,6 +276,7 @@
     grid-column: 2 / 3;
     display: grid;
     gap: 25px;
+    line-height: 24px;
 } 
 
 .footer {
@@ -300,6 +301,7 @@
 .footer_link-list {
     margin-left: -50px;
 }
+
 .footer_menu-link {
     text-decoration: underline;
     text-underline-offset: 4px;
@@ -316,6 +318,7 @@
     flex-direction: row;
     gap: 48px;
     margin-top: 2px;
+    margin-left: 2px;
 }
 
 .networks {
