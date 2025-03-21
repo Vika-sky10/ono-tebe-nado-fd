@@ -231,7 +231,7 @@
 }
 
 .about {
-    padding: 120px 24px 176px 24px;
+    padding: 120px 24px 180px 24px;
 }
 
 .about_colomn {
@@ -300,10 +300,12 @@
 .footer_menu-link {
     text-decoration: underline;
     text-underline-offset: 4px;
+    font-size: 18px;
 }
 
 .footer_menu-link_active {
     text-decoration: none;
+    font-size: 18px;
 }
 
 .footer_networks-list {
