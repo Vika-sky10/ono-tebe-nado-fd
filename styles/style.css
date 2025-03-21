@@ -12,18 +12,18 @@
     line-height: 22px;
     justify-self: start;
     align-items: center;
-    
 }
 
 .header_link-list {
     display: flex;
-    gap: 30px;
+    gap: 32px;
     max-width: 392px;
     justify-self: end;
     font-style: normal;
     min-width: auto;
     flex-direction: row;
     font-size: 18px;
+    margin-bottom: 1px;
 }
 
 .header__links-list-item .header__links-list-item_no-bullit {
@@ -231,7 +231,7 @@
 }
 
 .about {
-    padding: 120px 24px 180px 24px;
+    padding: 120px 24px 170px 24px;
 }
 
 .about_colomn {
@@ -275,7 +275,7 @@
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     display: grid;
-    gap: 30px;
+    gap: 25px;
 } 
 
 .footer {
@@ -310,7 +310,7 @@
     display: flex;
     flex-direction: row;
     gap: 48px;
-    padding-right: 50px;
+    /*padding-right: 10px;*/
 
 }
 
