@@ -86,8 +86,10 @@
 }
 
 .cover_title {
+    display: grid;
     width: 1000;
     line-height: 115px;
+    gap: 20px;
     font-weight: 700;
     font-size: 100px;
     text-transform: uppercase;
@@ -121,7 +123,7 @@
     align-items: center;
     z-index: 0;
     word-spacing: 0.9em;
-    padding-top: 106px;
+    padding-top: 120px;
     position: relative;
     margin-bottom: 50px;
     font-family: Raleway;
@@ -260,11 +262,12 @@
 }
 
 .about_title {
+    display: flex;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 60px;
-    margin-top: 136px;
+    margin-top: 100px;
 }
 
 .about_text {
