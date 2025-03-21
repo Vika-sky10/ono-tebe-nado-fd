@@ -88,6 +88,7 @@
     display: grid;
     width: 1000;
     padding-top: 165px;
+    padding-left: 50px;
     line-height: 115px;
     gap: 20px;
     font-weight: 700;
